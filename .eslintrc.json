@@ -1,0 +1,11 @@
+{
+  "extends": ["airbnb", "airbnb/hooks", "next", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".ts", ".js", ".jsx", ".json"]
+      }
+    }
+  }
+}
